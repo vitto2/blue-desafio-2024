@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Montserrat&display=swap');
+
+* { 
+    margin: 0; 
+    border: 0; 
+}
+
+body { 
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.container-main { 
+    height: 100vh;
+    display: grid;
+    grid-template-areas: "aside header header"
+                          "aside main main";
+    grid-template-columns: 10% 90%;
+    background-color: #EDEDED;
+}   
+
+.header { 
+    grid-area: header;
+    background: #2500FF;
+    
+}
+
+.main { 
+    grid-area: main;
+    background: #FFFFFF;
+}
+
+
+.aside { 
+    grid-area: aside; 
+    background-color: #FFFFFF;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.menu-nav { 
+    width: 100%;
+
+}
+
+.menu-nav ul { 
+    list-style: none;
+    font-size: 10.64px;
+}
+
+.menu-nav a { 
+    text-decoration: none;
+    color: #5C5C5C; 
+    line-height: 12.87px;
+    
+}
+
+.button-exit { 
+    display:  flex;
+    color: #5C5C5C;
+    font-size: 10.64px;
+    margin: 5px 0px 20px 0px; 
+    
+}
+
+.button-exit h3 { 
+    margin-top: 6px; 
+}
+
+
+.container-nav-logo { 
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 100px; 
+    align-items: center;
+}
+
+
+.logo-blue { 
+    margin-top: 10px; 
+}
+
