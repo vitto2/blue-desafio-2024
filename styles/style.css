@@ -29,24 +29,34 @@ body {
 
 .card {
   color: white;
-  border-radius: 4px;
+  border-radius: 6px;
   padding: 20px 0 0 20px;
   width: 80vw;
-  height: 20vh;
+  height: 15vh;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  
 }
 
 .card-1 {
   background: #2500ff;
-  
+  display: grid;
+  justify-content: end;
+  align-items: end;
 }
 
 .card-2 {
   background: #818181;
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 1fr 1fr;
 }
+
 
 .card-3 {
   background: #000000;
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 1fr 1fr;
 }
 
 .section-cards {
@@ -57,3 +67,7 @@ body {
   gap: 30px;
 }
 
+.money-hand { 
+  margin-left: 150px;
+  margin-top: 30px;
+}
