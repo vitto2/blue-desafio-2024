@@ -38,6 +38,7 @@ body {
 
 .card-1 {
   background: #2500ff;
+  
 }
 
 .card-2 {
@@ -55,3 +56,4 @@ body {
   align-items: center;
   gap: 30px;
 }
+

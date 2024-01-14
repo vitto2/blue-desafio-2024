@@ -9,12 +9,18 @@
 
 .menu-ul { 
     display: flex;
-    list-style: none;
-    color: #818181;;
+    text-decoration: none;
+    
     gap: 25px; 
     font-weight: 700;
+    list-style: none;
+   
 }
 
+.menu-ul li a { 
+    text-decoration: none;
+    color: #818181;
+}
 li:hover { 
     color:#2500ff;
 }
