@@ -1,0 +1,25 @@
+
+.header { 
+    border-bottom: 1px solid #cccccc;
+    display: flex;
+    padding: 1em;
+    justify-content: space-between;
+}
+
+
+.menu-ul { 
+    display: flex;
+    list-style: none;
+    color: #818181;;
+    gap: 25px; 
+    font-weight: 700;
+}
+
+li:hover { 
+    color:#2500ff;
+}
+.menu-nav { 
+    display: flex;
+    height: 100%;
+    margin-top: 6px;
+}

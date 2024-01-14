@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("/styles/header.css");
+@import url("/styles/propostas.css");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  position: relative;
+  border: none;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Inter", sans-serif;
+  font-size: 0.96rem;
+  font-weight: 300;
+}
+
+.date  {
+  margin-top: 60px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  font-size: 1rem;
+  color: #2500ff;
+}
+
+.card {
+  color: white;
+  border-radius: 4px;
+  padding: 20px 0 0 20px;
+  width: 80vw;
+  height: 20vh;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-1 {
+  background: #2500ff;
+}
+
+.card-2 {
+  background: #818181;
+}
+
+.card-3 {
+  background: #000000;
+}
+
+.section-cards {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+  gap: 30px;
+}
