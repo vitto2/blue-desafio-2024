@@ -1,88 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 * { 
+    padding: 0; 
     margin: 0; 
-    border: 0; 
+    box-sizing: border-box;
+    position: relative; 
+    border: none
 }
 
-body { 
-    font-family: 'Inter', sans-serif;
+html, body { 
+    height: 100%;
+    font-family: "Inter", sans-serif;
+    font-size: 0.96rem; 
+    font-weight: 300;
 }
-.main-container { 
-    display: grid;
-    grid-template-areas: "aside header"
-                         "aside main";
-    grid-template-columns: 10% 90%;
-    
-}
+
+
 .header { 
-    background: #2500FF;
-    grid-area: header;
-    height: 40vh;
-}
-
-.date { 
-    font-size: 12px;
-    line-height: 14.52px;
-    margin-top: 26px;
-    margin-left: 153px;
-    color: white;
-}
-.main { 
+    border-bottom: 1px solid blue;
     display: flex;
-    background: #EDEDED;
-    grid-area: main;
-    display: flex;
-    gap: 50px; 
-    height: 100vh;
+    padding: 1em;
+    justify-content: space-between;
 }
 
-.aside { 
-    background: #FFFFFF;
-    grid-area: aside; 
-}
-
-
-.section1 { 
-    background: #FFFFFF;
-    width: 815px;
-    height: 610px;
-    margin-top: -150px; 
-    margin-left: 50px;
-    border-radius: 5px;
-}
-
-.div-cards { 
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-}
-.section2 { 
-    background: #FFFFFF;
-    width: 264px;
-    height: 610px;
-    margin-top: -150px; 
-    border-radius: 5px;
+.menu-icon { 
+    max-width: 100%;
+    height: 30px;
+    width: 30px;
 }
 
 
-.card-01, 
-.card-02, 
-.card-03 { 
-    width: 224px;
-    height: 114px;
-    border-radius: 10px;
-    margin-top: 87px;
-}
-
-.card-01  { 
-    background: #2500FF;
-}
-
-.card-02 { 
-    background: #818181;
-}
-
-.card-03 { 
-    background: #000000;
+.main-section h3 { 
+    margin-top: 50px; 
+    margin-left: 20px;
+    font-size: 15px;
+    color:#2500FF;
 }
