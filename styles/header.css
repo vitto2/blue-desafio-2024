@@ -10,7 +10,6 @@
 .menu-ul { 
     display: flex;
     text-decoration: none;
-    
     gap: 25px; 
     font-weight: 700;
     list-style: none;
@@ -21,9 +20,11 @@
     text-decoration: none;
     color: #818181;
 }
+
 li:hover { 
     color:#2500ff;
 }
+
 .menu-nav { 
     display: flex;
     height: 100%;
